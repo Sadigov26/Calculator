@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#calc {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+   background-color: black;
+    width: 200px;
+    border-radius: 10px;
+    height: 360px;
+  
+   
+
+}
+input{
+   display: flex;
+    height: 80PX;
+    margin-top: 15px;
+  background-color: rgb(66, 43, 43);
+    border: none;
+}
+#result{
+    width: 165px;
+    height: 100%;
+    padding-left:10px ;
+   
+    border: none;
+
+}
+
+.bts {
+    width: 100%;
+
+}
+.btns {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    color: aliceblue;
+    background-color: #333333;
+    border-style: none  ;
+
+
+
+}
+#btns{
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    color: aliceblue;
+    background-color: rgb(212, 118, 2);
+border: none;
+    gap: 3;
+}
+#btns:hover {
+    background-color: rgb(147, 146, 146);
+}
+.btns:hover {
+    background-color: rgb(147, 146, 146);
+}
+
+.btnsboz:hover {
+    background-color: rgb(189, 186, 186);
+}
+
+.btnssari:hover {
+    background-color: rgb(149, 83, 3);
+}
+.btnswide:hover {
+    background-color: rgb(189, 186, 186);
+}
+.btnsboz{
+width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    color: rgb(0, 0, 0);
+    background-color: #A5A5A5;
+border: none;
+ }
+#clear{
+width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    color: rgb(0, 0, 0);
+    background-color: #A5A5A5;
+border: none;
+}
+#clear:hover {
+    background-color: rgb(189, 186, 186);
+}
+.btnssari{
+width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    color: aliceblue;
+    background-color: rgb(212, 118, 2);
+border: none;
+    gap: 3;
+}
+.btnswide{
+    width: 84px;
+    height: 40px;
+   border-radius: 100px;
+   border-style: none;
+   color: aliceblue;
+    background-color: #333333;
+}
+input {
+    width: 100%;
+
+}
